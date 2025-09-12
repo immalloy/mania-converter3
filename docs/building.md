@@ -2,7 +2,7 @@
 1. Install [**haxe**](https://haxe.org)
 2. Do these commands in cmd:
 ```
-haxelib install hxcpp 4.2.1
+haxelib install hxcpp 4.3.2
 haxelib install lime 8.0.2
 haxelib install openfl 9.2.2
 haxelib install flixel 5.3.1
@@ -22,3 +22,4 @@ MSVC v142 - C++ x64/x86 build tools
 Windows SDK
 ```
 6. And now compile it with: `lime test <windows/linux/mac>`
+7. After compilation, keep the `lime.ndll` file in the same directory as the `ManiaConverter` executable. Removing it will lead to the startup error "Could not load module lime@lime_application_create__prime".

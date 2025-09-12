@@ -3,7 +3,7 @@
 ## 3.0.5 - sliders update
 - Now u can change value of sliders with double click on it (feat. [ZeroSupply](https://gamebanana.com/members/2007471))
 - Fixed colors and updated hxcpp to 4.3.2
-- Now it not using lime things so u can remove lime.ndll
+- The application still relies on Lime; keep lime.ndll with the executable to prevent a "Could not load module lime@lime_application_create__prime" error
 - Changed bf to pico and vice versa (im idiot)
 - Fixed watermark
 - Fixed unvisible buttons on web version smh idk (feat. [Binsu1126](https://gamebanana.com/members/2297338))
