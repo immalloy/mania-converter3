@@ -12,7 +12,8 @@ Converter of FNF or osu!mania maps/charts, example from 4 key to 6 key, now with
 ## (Latest) 3.0.5 - sliders update
 - Now u can change value of sliders with double click on it (feat. [ZeroSupply](https://gamebanana.com/members/2007471))
 - Fixed colors and updated hxcpp to 4.3.2
-- Now it not using lime things so u can remove lime.ndll
+- The application still depends on Lime; keep lime.ndll next to the executable to avoid a "Could not load module lime@lime_application_create__prime" error
+- Pinned to OpenFL 8.9.x and Lime 7.x for Flixel compatibility; newer OpenFL 9+ releases remove `SoundChannel.__source`
 - Changed bf to pico and vice versa (im idiot)
 - Fixed watermark
 - Fixed unvisible buttons on web version smh idk (feat. [Binsu1126](https://gamebanana.com/members/2297338))
